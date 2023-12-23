@@ -22,7 +22,7 @@ public class FlightService {
 
     public List<FlightResponse> getAllFlights() {
         List<Flight> flights = flightRepository.findAll();
-        return convertFlights(flights);
+        return Utils.convertFlights(flights);
     }
 
     public FlightResponse getFlight(Long id) {
@@ -30,7 +30,7 @@ public class FlightService {
         if (flight == null) {
             return null;
         }
-        return convertFlightResponse(flight);
+        return Utils.convertFlightResponse(flight);
     }
 
     public FlightResponse createFlight(FlightCreationRequest request) {
@@ -50,7 +50,7 @@ public class FlightService {
                 .build();
 
         flightRepository.save(flight);
-        return convertFlightResponse(flight);
+        return Utils.convertFlightResponse(flight);
     }
 
     public FlightResponse updateFlight(Long id, FlightUpdateRequest request) {
@@ -86,28 +86,11 @@ public class FlightService {
 
 
         flightRepository.save(existingFlight);
-        return convertFlightResponse(existingFlight);
+        return Utils.convertFlightResponse(existingFlight);
     }
 
     public void deleteFlight(Long id) {
         flightRepository.deleteById(id);
     }
 
-    private static FlightResponse convertFlightResponse(Flight flight) {
-        return FlightResponse
-                .builder()
-                .id(flight.getId())
-                .departureAirport(flight.getDepartureAirport())
-                .arrivalAirport(flight.getArrivalAirport())
-                .departureDate(Utils.getIsoDateTime(flight.getDepartureDate()))
-                .arrivalDate(Utils.getIsoDateTime(flight.getArrivalDate()))
-                .price(flight.getPrice())
-                .build();
-    }
-
-    private static List<FlightResponse> convertFlights(List<Flight> flights) {
-        return flights.stream()
-                .map(FlightService::convertFlightResponse)
-                .collect(Collectors.toList());
-    }
 }
