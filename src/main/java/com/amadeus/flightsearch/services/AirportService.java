@@ -32,12 +32,12 @@ public class AirportService {
 
     public Airport updateAirport(String id, AirportUpdateRequest request) {
         return airportRepository.findById(id)
-                .map(currentAirport -> {
+                .map(existingAirport -> {
                     if(!request.getCity().isEmpty()) {
-                        currentAirport.setCity(request.getCity());
+                        existingAirport.setCity(request.getCity());
                     }
-                    airportRepository.save(currentAirport);
-                    return currentAirport;
+                    airportRepository.save(existingAirport);
+                    return existingAirport;
                 })
                 .orElse(null);
     }
