@@ -44,8 +44,8 @@ public class FlightService {
         Flight flight = Flight.builder()
                 .departureAirport(departureAirport)
                 .arrivalAirport(arrivalAirport)
-                .departureDate(Utils.getEpochDateMillisecond(request.getDepartureDate()))
-                .arrivalDate(Utils.getEpochDateMillisecond(request.getArrivalDate()))
+                .departureDate(Utils.getEpochDateSecond(request.getDepartureDate()))
+                .arrivalDate(Utils.getEpochDateSecond(request.getArrivalDate()))
                 .price(request.getPrice())
                 .build();
 
@@ -75,10 +75,10 @@ public class FlightService {
             existingFlight.setArrivalAirport(updatedArrivalAirport);
         }
         if (request.getDepartureDate() != null) {
-            existingFlight.setDepartureDate(Utils.getEpochDateMillisecond(request.getDepartureDate()));
+            existingFlight.setDepartureDate(Utils.getEpochDateSecond(request.getDepartureDate()));
         }
         if (request.getArrivalDate() != null) {
-            existingFlight.setArrivalDate(Utils.getEpochDateMillisecond(request.getArrivalDate()));
+            existingFlight.setArrivalDate(Utils.getEpochDateSecond(request.getArrivalDate()));
         }
         if(request.getPrice() != null) {
             existingFlight.setPrice(request.getPrice());

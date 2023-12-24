@@ -1,0 +1,194 @@
+[
+  {
+    "id": "IST",
+    "city": "Istanbul"
+  },
+  {
+    "id": "SAW",
+    "city": "Istanbul"
+  },
+  {
+    "id": "LHR",
+    "city": "London"
+  },
+  {
+    "id": "JFK",
+    "city": "New York"
+  },
+  {
+    "id": "CDG",
+    "city": "Paris"
+  },
+  {
+    "id": "DXB",
+    "city": "Dubai"
+  },
+  {
+    "id": "PEK",
+    "city": "Beijing"
+  },
+  {
+    "id": "ATL",
+    "city": "Atlanta"
+  },
+  {
+    "id": "ORD",
+    "city": "Chicago"
+  },
+  {
+    "id": "LAX",
+    "city": "Los Angeles"
+  },
+  {
+    "id": "SIN",
+    "city": "Singapore"
+  },
+  {
+    "id": "AMS",
+    "city": "Amsterdam"
+  },
+  {
+    "id": "FRA",
+    "city": "Frankfurt"
+  },
+  {
+    "id": "ICN",
+    "city": "Seoul"
+  },
+  {
+    "id": "DFW",
+    "city": "Dallas"
+  },
+  {
+    "id": "HKG",
+    "city": "Hong Kong"
+  },
+  {
+    "id": "DEN",
+    "city": "Denver"
+  },
+  {
+    "id": "MIA",
+    "city": "Miami"
+  },
+  {
+    "id": "BKK",
+    "city": "Bangkok"
+  },
+  {
+    "id": "MUC",
+    "city": "Munich"
+  },
+  {
+    "id": "MAD",
+    "city": "Madrid"
+  },
+  {
+    "id": "IAH",
+    "city": "Houston"
+  },
+  {
+    "id": "LAS",
+    "city": "Las Vegas"
+  },
+  {
+    "id": "BOS",
+    "city": "Boston"
+  },
+  {
+    "id": "DEL",
+    "city": "Delhi"
+  },
+  {
+    "id": "SEA",
+    "city": "Seattle"
+  },
+  {
+    "id": "MSP",
+    "city": "Minneapolis"
+  },
+  {
+    "id": "PHX",
+    "city": "Phoenix"
+  },
+  {
+    "id": "IAD",
+    "city": "Washington, D.C."
+  },
+  {
+    "id": "SYD",
+    "city": "Sydney"
+  },
+  {
+    "id": "MCO",
+    "city": "Orlando"
+  },
+  {
+    "id": "YYZ",
+    "city": "Toronto"
+  },
+  {
+    "id": "MEX",
+    "city": "Mexico City"
+  },
+  {
+    "id": "NRT",
+    "city": "Tokyo"
+  },
+  {
+    "id": "SFO",
+    "city": "San Francisco"
+  },
+  {
+    "id": "CLT",
+    "city": "Charlotte"
+  },
+  {
+    "id": "EWR",
+    "city": "Newark"
+  },
+  {
+    "id": "DUB",
+    "city": "Dublin"
+  },
+  {
+    "id": "CPH",
+    "city": "Copenhagen"
+  },
+  {
+    "id": "ZRH",
+    "city": "Zurich"
+  },
+  {
+    "id": "BCN",
+    "city": "Barcelona"
+  },
+  {
+    "id": "VIE",
+    "city": "Vienna"
+  },
+  {
+    "id": "ATH",
+    "city": "Athens"
+  },
+  {
+    "id": "JNB",
+    "city": "Johannesburg"
+  },
+  {
+    "id": "PTY",
+    "city": "Panama City"
+  },
+  {
+    "id": "BOG",
+    "city": "Bogotá"
+  },
+  {
+    "id": "CPT",
+    "city": "Cape Town"
+  },
+  {
+    "id": "DME",
+    "city": "Moscow"
+  }
+]

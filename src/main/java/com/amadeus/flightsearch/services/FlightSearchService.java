@@ -19,7 +19,7 @@ public class FlightSearchService {
         List<FlightResponse> outboundFlights = flightSearchRepository.searchFlights(
                 request.getDepartureAirport(),
                 request.getArrivalAirport(),
-                Utils.getEpochDateMillisecond(request.getDepartureDate())
+                Utils.getEpochDateSecond(request.getDepartureDate())
         ).stream()
                 .map(Utils::convertFlightResponse)
                 .toList();
@@ -28,7 +28,7 @@ public class FlightSearchService {
             returnFlights = flightSearchRepository.searchFlights(
                             request.getDepartureAirport(),
                             request.getArrivalAirport(),
-                            Utils.getEpochDateMillisecond(request.getReturnDate())
+                            Utils.getEpochDateSecond(request.getReturnDate())
                     ).stream()
                     .map(Utils::convertFlightResponse)
                     .toList();

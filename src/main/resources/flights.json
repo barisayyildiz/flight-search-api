@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "departureAirport": {
+      "id": "SAW",
+      "city": "Istanbul"
+    },
+    "arrivalAirport": {
+      "id": "IST",
+      "city": "Istanbul"
+    },
+    "departureDate": 1703386800,
+    "arrivalDate": 1703390400,
+    "price": 20
+  },
+  {
+    "id": 2,
+    "departureAirport": {
+      "id": "LHR",
+      "city": "London"
+    },
+    "arrivalAirport": {
+      "id": "JFK",
+      "city": "New York"
+    },
+    "departureDate": 1703386800,
+    "arrivalDate": 1703401200,
+    "price": 25
+  },
+  {
+    "id": 3,
+    "departureAirport": {
+      "id": "CDG",
+      "city": "Paris"
+    },
+    "arrivalAirport": {
+      "id": "DXB",
+      "city": "Dubai"
+    },
+    "departureDate": 1703390400,
+    "arrivalDate": 1703412000,
+    "price": 30
+  },
+  {
+    "id": 4,
+    "departureAirport": {
+      "id": "PEK",
+      "city": "Beijing"
+    },
+    "arrivalAirport": {
+      "id": "ATL",
+      "city": "Atlanta"
+    },
+    "departureDate": 1703394000,
+    "arrivalDate": 1703419200,
+    "price": 35
+  },
+  {
+    "id": 5,
+    "departureAirport": {
+      "id": "ORD",
+      "city": "Chicago"
+    },
+    "arrivalAirport": {
+      "id": "LAX",
+      "city": "Los Angeles"
+    },
+    "departureDate": 1703397600,
+    "arrivalDate": 1703426400,
+    "price": 40
+  },
+  {
+    "id": 6,
+    "departureAirport": {
+      "id": "SIN",
+      "city": "Singapore"
+    },
+    "arrivalAirport": {
+      "id": "AMS",
+      "city": "Amsterdam"
+    },
+    "departureDate": 1703401200,
+    "arrivalDate": 1703433600,
+    "price": 45
+  },
+  {
+    "id": 7,
+    "departureAirport": {
+      "id": "FRA",
+      "city": "Frankfurt"
+    },
+    "arrivalAirport": {
+      "id": "ICN",
+      "city": "Seoul"
+    },
+    "departureDate": 1703404800,
+    "arrivalDate": 1703412000,
+    "price": 50
+  },
+  {
+    "id": 8,
+    "departureAirport": {
+      "id": "DFW",
+      "city": "Dallas"
+    },
+    "arrivalAirport": {
+      "id": "HKG",
+      "city": "Hong Kong"
+    },
+    "departureDate": 1703408400,
+    "arrivalDate": 1703448000,
+    "price": 55
+  },
+  {
+    "id": 9,
+    "departureAirport": {
+      "id": "MIA",
+      "city": "Miami"
+    },
+    "arrivalAirport": {
+      "id": "BKK",
+      "city": "Bangkok"
+    },
+    "departureDate": 1703412000,
+    "arrivalDate": 1703455200,
+    "price": 60
+  },
+  {
+    "id": 10,
+    "departureAirport": {
+      "id": "MUC",
+      "city": "Munich"
+    },
+    "arrivalAirport": {
+      "id": "MAD",
+      "city": "Madrid"
+    },
+    "departureDate": 1703415600,
+    "arrivalDate": 1703466000,
+    "price": 65
+  },
+  {
+    "id": 11,
+    "departureAirport": {
+      "id": "IAH",
+      "city": "Houston"
+    },
+    "arrivalAirport": {
+      "id": "LAS",
+      "city": "Las Vegas"
+    },
+    "departureDate": 1703466000,
+    "arrivalDate": 1703473200,
+    "price": 70
+  },
+  {
+    "id": 12,
+    "departureAirport": {
+      "id": "BKK",
+      "city": "Bangkok"
+    },
+    "arrivalAirport": {
+      "id": "MUC",
+      "city": "Munich"
+    },
+    "departureDate": 1703476800,
+    "arrivalDate": 1703498400,
+    "price": 75
+  },
+  {
+    "id": 13,
+    "departureAirport": {
+      "id": "MAD",
+      "city": "Madrid"
+    },
+    "arrivalAirport": {
+      "id": "IAH",
+      "city": "Houston"
+    },
+    "departureDate": 1703473200,
+    "arrivalDate": 1703480400,
+    "price": 80
+  },
+  {
+    "id": 14,
+    "departureAirport": {
+      "id": "LAS",
+      "city": "Las Vegas"
+    },
+    "arrivalAirport": {
+      "id": "DFW",
+      "city": "Dallas"
+    },
+    "departureDate": 1703480400,
+    "arrivalDate": 1703505600,
+    "price": 85
+  },
+  {
+    "id": 15,
+    "departureAirport": {
+      "id": "HKG",
+      "city": "Hong Kong"
+    },
+    "arrivalAirport": {
+      "id": "DEN",
+      "city": "Denver"
+    },
+    "departureDate": 1703476800,
+    "arrivalDate": 1703502000,
+    "price": 90
+  },
+  {
+    "id": 16,
+    "departureAirport": {
+      "id": "MIA",
+      "city": "Miami"
+    },
+    "arrivalAirport": {
+      "id": "ORD",
+      "city": "Chicago"
+    },
+    "departureDate": 1703484000,
+    "arrivalDate": 1703505600,
+    "price": 95
+  },
+  {
+    "id": 17,
+    "departureAirport": {
+      "id": "SIN",
+      "city": "Singapore"
+    },
+    "arrivalAirport": {
+      "id": "LAX",
+      "city": "Los Angeles"
+    },
+    "departureDate": 1703498400,
+    "arrivalDate": 1703512800,
+    "price": 100
+  },
+  {
+    "id": 18,
+    "departureAirport": {
+      "id": "AMS",
+      "city": "Amsterdam"
+    },
+    "arrivalAirport": {
+      "id": "SFO",
+      "city": "San Francisco"
+    },
+    "departureDate": 1703491200,
+    "arrivalDate": 1703502000,
+    "price": 105
+  },
+  {
+    "id": 19,
+    "departureAirport": {
+      "id": "FRA",
+      "city": "Frankfurt"
+    },
+    "arrivalAirport": {
+      "id": "ATL",
+      "city": "Atlanta"
+    },
+    "departureDate": 1703494800,
+    "arrivalDate": 1703516400,
+    "price": 110
+  },
+  {
+    "id": 20,
+    "departureAirport": {
+      "id": "ICN",
+      "city": "Seoul"
+    },
+    "arrivalAirport": {
+      "id": "SEA",
+      "city": "Seattle"
+    },
+    "departureDate": 1703502000,
+    "arrivalDate": 1703523600,
+    "price": 115
+  },
+  {
+    "id": 21,
+    "departureAirport": {
+      "id": "DFW",
+      "city": "Dallas"
+    },
+    "arrivalAirport": {
+      "id": "PHX",
+      "city": "Phoenix"
+    },
+    "departureDate": 1703505600,
+    "arrivalDate": 1703512800,
+    "price": 120
+  },
+  {
+    "id": 22,
+    "departureAirport": {
+      "id": "IAD",
+      "city": "Washington, D.C."
+    },
+    "arrivalAirport": {
+      "id": "SYD",
+      "city": "Sydney"
+    },
+    "departureDate": 1703505600,
+    "arrivalDate": 1703534400,
+    "price": 125
+  },
+  {
+    "id": 23,
+    "departureAirport": {
+      "id": "SYD",
+      "city": "Sydney"
+    },
+    "arrivalAirport": {
+      "id": "MCO",
+      "city": "Orlando"
+    },
+    "departureDate": 1703502000,
+    "arrivalDate": 1703509200,
+    "price": 130
+  },
+  {
+    "id": 24,
+    "departureAirport": {
+      "id": "MEX",
+      "city": "Mexico City"
+    },
+    "arrivalAirport": {
+      "id": "YYZ",
+      "city": "Toronto"
+    },
+    "departureDate": 1703516400,
+    "arrivalDate": 1703541600,
+    "price": 135
+  },
+  {
+    "id": 25,
+    "departureAirport": {
+      "id": "NRT",
+      "city": "Tokyo"
+    },
+    "arrivalAirport": {
+      "id": "SIN",
+      "city": "Singapore"
+    },
+    "departureDate": 1703516400,
+    "arrivalDate": 1703534400,
+    "price": 140
+  },
+  {
+    "id": 26,
+    "departureAirport": {
+      "id": "SFO",
+      "city": "San Francisco"
+    },
+    "arrivalAirport": {
+      "id": "LHR",
+      "city": "London"
+    },
+    "departureDate": 1703520000,
+    "arrivalDate": 1703545200,
+    "price": 145
+  },
+  {
+    "id": 27,
+    "departureAirport": {
+      "id": "CLT",
+      "city": "Charlotte"
+    },
+    "arrivalAirport": {
+      "id": "EWR",
+      "city": "Newark"
+    },
+    "departureDate": 1703527200,
+    "arrivalDate": 1703541600,
+    "price": 150
+  },
+  {
+    "id": 28,
+    "departureAirport": {
+      "id": "DUB",
+      "city": "Dublin"
+    },
+    "arrivalAirport": {
+      "id": "CPH",
+      "city": "Copenhagen"
+    },
+    "departureDate": 1703534400,
+    "arrivalDate": 1703538000,
+    "price": 155
+  },
+  {
+    "id": 29,
+    "departureAirport": {
+      "id": "CPH",
+      "city": "Copenhagen"
+    },
+    "arrivalAirport": {
+      "id": "ZRH",
+      "city": "Zurich"
+    },
+    "departureDate": 1703552400,
+    "arrivalDate": 1703559600,
+    "price": 160
+  },
+  {
+    "id": 30,
+    "departureAirport": {
+      "id": "ZRH",
+      "city": "Zurich"
+    },
+    "arrivalAirport": {
+      "id": "BCN",
+      "city": "Barcelona"
+    },
+    "departureDate": 1703559600,
+    "arrivalDate": 1703563200,
+    "price": 165
+  },
+  {
+    "id": 31,
+    "departureAirport": {
+      "id": "BCN",
+      "city": "Barcelona"
+    },
+    "arrivalAirport": {
+      "id": "VIE",
+      "city": "Vienna"
+    },
+    "departureDate": 1703566800,
+    "arrivalDate": 1703570400,
+    "price": 170
+  },
+  {
+    "id": 32,
+    "departureAirport": {
+      "id": "VIE",
+      "city": "Vienna"
+    },
+    "arrivalAirport": {
+      "id": "ATH",
+      "city": "Athens"
+    },
+    "departureDate": 1703556000,
+    "arrivalDate": 1703559600,
+    "price": 175
+  },
+  {
+    "id": 33,
+    "departureAirport": {
+      "id": "ATH",
+      "city": "Athens"
+    },
+    "arrivalAirport": {
+      "id": "JNB",
+      "city": "Johannesburg"
+    },
+    "departureDate": 1703566800,
+    "arrivalDate": 1703592000,
+    "price": 180
+  },
+  {
+    "id": 34,
+    "departureAirport": {
+      "id": "JNB",
+      "city": "Johannesburg"
+    },
+    "arrivalAirport": {
+      "id": "PTY",
+      "city": "Panama City"
+    },
+    "departureDate": 1703592000,
+    "arrivalDate": 1703599200,
+    "price": 185
+  },
+  {
+    "id": 35,
+    "departureAirport": {
+      "id": "PTY",
+      "city": "Panama City"
+    },
+    "arrivalAirport": {
+      "id": "BOG",
+      "city": "Bogotá"
+    },
+    "departureDate": 1703570400,
+    "arrivalDate": 1703581200,
+    "price": 190
+  },
+  {
+    "id": 36,
+    "departureAirport": {
+      "id": "BOG",
+      "city": "Bogotá"
+    },
+    "arrivalAirport": {
+      "id": "CPT",
+      "city": "Cape Town"
+    },
+    "departureDate": 1703577600,
+    "arrivalDate": 1703584800,
+    "price": 195
+  },
+  {
+    "id": 37,
+    "departureAirport": {
+      "id": "CPT",
+      "city": "Cape Town"
+    },
+    "arrivalAirport": {
+      "id": "DME",
+      "city": "Moscow"
+    },
+    "departureDate": 1703592000,
+    "arrivalDate": 1703602800,
+    "price": 200
+  },
+  {
+    "id": 38,
+    "departureAirport": {
+      "id": "DME",
+      "city": "Moscow"
+    },
+    "arrivalAirport": {
+      "id": "IST",
+      "city": "İstanbul"
+    },
+    "departureDate": 1703584800,
+    "arrivalDate": 1703599200,
+    "price": 205
+  },
+  {
+    "id": 39,
+    "departureAirport": {
+      "id": "IST",
+      "city": "İstanbul"
+    },
+    "arrivalAirport": {
+      "id": "SAW",
+      "city": "İstanbul"
+    },
+    "departureDate": 1703610000,
+    "arrivalDate": 1703617200,
+    "price": 210
+  },
+  {
+    "id": 40,
+    "departureAirport": {
+      "id": "SAW",
+      "city": "İstanbul"
+    },
+    "arrivalAirport": {
+      "id": "LHR",
+      "city": "London"
+    },
+    "departureDate": 1703617200,
+    "arrivalDate": 1703624400,
+    "price": 215
+  },
+  {
+    "id": 41,
+    "departureAirport": {
+      "id": "LHR",
+      "city": "London"
+    },
+    "arrivalAirport": {
+      "id": "JFK",
+      "city": "New York"
+    },
+    "departureDate": 1703610000,
+    "arrivalDate": 1703613600,
+    "price": 220
+  },
+  {
+    "id": 42,
+    "departureAirport": {
+      "id": "JFK",
+      "city": "New York"
+    },
+    "arrivalAirport": {
+      "id": "CDG",
+      "city": "Paris"
+    },
+    "departureDate": 1703602800,
+    "arrivalDate": 1703617200,
+    "price": 225
+  },
+  {
+    "id": 43,
+    "departureAirport": {
+      "id": "CDG",
+      "city": "Paris"
+    },
+    "arrivalAirport": {
+      "id": "DXB",
+      "city": "Dubai"
+    },
+    "departureDate": 1703606400,
+    "arrivalDate": 1703624400,
+    "price": 230
+  },
+  {
+    "id": 44,
+    "departureAirport": {
+      "id": "DXB",
+      "city": "Dubai"
+    },
+    "arrivalAirport": {
+      "id": "PEK",
+      "city": "Beijing"
+    },
+    "departureDate": 1703624400,
+    "arrivalDate": 1703628000,
+    "price": 235
+  },
+  {
+    "id": 45,
+    "departureAirport": {
+      "id": "PEK",
+      "city": "Beijing"
+    },
+    "arrivalAirport": {
+      "id": "ATL",
+      "city": "Atlanta"
+    },
+    "departureDate": 1703595600,
+    "arrivalDate": 1703606400,
+    "price": 240
+  },
+  {
+    "id": 46,
+    "departureAirport": {
+      "id": "ATL",
+      "city": "Atlanta"
+    },
+    "arrivalAirport": {
+      "id": "ORD",
+      "city": "Chicago"
+    },
+    "departureDate": 1703581200,
+    "arrivalDate": 1703588400,
+    "price": 245
+  },
+  {
+    "id": 47,
+    "departureAirport": {
+      "id": "ORD",
+      "city": "Chicago"
+    },
+    "arrivalAirport": {
+      "id": "LAX",
+      "city": "Los Angeles"
+    },
+    "departureDate": 1703588400,
+    "arrivalDate": 1703602800,
+    "price": 250
+  },
+  {
+    "id": 48,
+    "departureAirport": {
+      "id": "LAX",
+      "city": "Los Angeles"
+    },
+    "arrivalAirport": {
+      "id": "SIN",
+      "city": "Singapore"
+    },
+    "departureDate": 1703602800,
+    "arrivalDate": 1703620800,
+    "price": 255
+  },
+  {
+    "id": 49,
+    "departureAirport": {
+      "id": "SIN",
+      "city": "Singapore"
+    },
+    "arrivalAirport": {
+      "id": "AMS",
+      "city": "Amsterdam"
+    },
+    "departureDate": 1703620800,
+    "arrivalDate": 1703624400,
+    "price": 260
+  },
+  {
+    "id": 50,
+    "departureAirport": {
+      "id": "AMS",
+      "city": "Amsterdam"
+    },
+    "arrivalAirport": {
+      "id": "FRA",
+      "city": "Frankfurt"
+    },
+    "departureDate": 1703624400,
+    "arrivalDate": 1703631600,
+    "price": 265
+  }
+]
